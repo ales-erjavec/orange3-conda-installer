@@ -1,0 +1,29 @@
+Copyright (c) 2016 Bioinformatics Laboratory, University of Ljubljana,
+  Faculty of Computer and Information Science
+
+All rights reserved.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT ANY WARRANTY WHATSOEVER.
+
+If you use or redistribute this software, you are permitted to do so
+under the terms of [GNU GPL v3+] license.
+
+In addition, some parts of the program are distributed under different
+license terms. Please see ATTRIBUTION file for details.
+
+[GNU GPL v3+]: https://www.gnu.org/licenses/gpl-3.0.en.html
+
+
+Orange uses [Highcharts] for some of its visualizations. Some files in
+Orange/widgets/_highcharts directory are courtesy of Highsoft AS and are
+licensed differently, namely commercial use is not allowed. Additionally,
+jQuery in the same directory is provided courtesy of jQuery Foundation and
+is licensed under the terms of MIT license. Please see
+Orange/widgets/_highcharts/LICENSE file for details.
+
+[Highcharts]: http://www.highcharts.com/
+
+In addition to the above, Orange depends on multiple open-source projects
+the developers of which we are very grateful to.
+
+Support libre/open-source software.
