@@ -1,0 +1,30 @@
+name : Orange
+version: 3.4.1
+
+channels:
+  - https://repo.continuum.io/pkgs/free/
+  - https://conda.anaconda.org/conda-forge/
+
+
+specs:
+  - python  3.6.1
+  - conda   4.3.*
+  - pip
+  - orange3  3.4.1
+  - orange3-desktop-integration
+  - menuinst  # [win]
+  # pin to 9.0 to pick up keyring from conda-forge
+  - keyring 9.0
+
+
+menu_packages:
+  - orange3-desktop-integration
+
+
+conda_default_channels:
+  - defaults
+  - conda-forge
+
+install_in_dependency_order: True
+
+license_file: LICENSE.txt

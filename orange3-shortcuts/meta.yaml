@@ -1,0 +1,31 @@
+ignore: {% set data = load_setup_py_data() %}
+
+package:
+  name: orange3-desktop-integration
+  version: {{ data['version'] }}
+
+source:
+  git_url: ../../
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - menuinst   # [win]
+
+  run:
+    - python
+    - orange3
+
+about:
+  home: http://orange.biolab.si/
+  license: GPL3
+  summary: Windows desktop integration for Orange Data Mining Application
+  description: |
+    Open source data visualization and data analysis for novice and expert.
+    Interactive workflows with a large toolbox.
+  doc_url: http://orange.biolab.si/docs/
+  dev_url: https://github.com/biolab/orange
