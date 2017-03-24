@@ -1,0 +1,31 @@
+# https://packaging.python.org/en/latest/appveyor/
+
+environment:
+  global:
+    REPO_DIR: orange3
+    VERSION: 3.4.1
+
+  matrix:
+    - PYTHON: "C:\\Python34"
+      CONDA: "C:\\Miniconda36-x64"
+
+cache:
+  - '%LOCALAPPDATA%\pip\Cache'
+
+build_script:
+  - "%CONDA%\\Scripts\\activate"
+  - set
+  - conda info
+  - conda install --yes constructor conda-build
+  - constructor .
+
+test_script:
+  - Orange-%VERSION%-Windows-x86_64.exe /S /D=C:\test-install-dir > null
+  - set ORANGE_DEPRECATIONS_ERROR=1
+  - set PYTHONWARNINGS=module
+  - C:\test-install-dir\python -m unittest Orange.tests Orange.widgets.tests
+  - mkdir installers
+  - move Orange-%VERSION%-Windows-x86_64.exe installers\
+
+artifacts:
+  - path: installers\*
