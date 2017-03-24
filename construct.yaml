@@ -6,23 +6,7 @@ channels:
   - https://conda.anaconda.org/conda-forge/
   - https://conda.anaconda.org/ales-erjavec
 
-specs:
-  - orange3-shortcuts
-
 packages: env-spec.txt
-
-#  - python  3.6.*
-#  - conda
-#  - pip
-#  - orange3
-#  - orange3-desktop-integration
-#  - menuinst  # [win]
-#  # pin to 9.0 to pick up keyring from conda-forge
-#  - keyring 9.0
-
-#menu_packages:
-#  - orange3-shortcuts
-
 
 conda_default_channels:
   - defaults
