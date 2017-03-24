@@ -1,23 +1,15 @@
-ignore: {% set data = load_setup_py_data() %}
-
 package:
-  name: orange3-desktop-integration
-  version: {{ data['version'] }}
-
-source:
-  git_url: ../../
+  name: orange3-shortcuts
+  version: 0.0.1
 
 build:
   number: 0
 
 requirements:
   build:
-    - python
-    - setuptools
     - menuinst   # [win]
 
   run:
-    - python
     - orange3
 
 about:

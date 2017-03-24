@@ -1,0 +1,45 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+# @EXPLICIT
+https://conda.anaconda.org/conda-forge/win-64/anyqt-0.0.8-py36_1.tar.bz2#f88e602e778a7910291089ba442b51bc
+https://repo.continuum.io/pkgs/free/win-64/bottleneck-1.2.0-np112py36_0.tar.bz2#62aef1cc55d4f6a53973b7783497b520
+https://repo.continuum.io/pkgs/free/win-64/cffi-1.9.1-py36_0.tar.bz2#d25fc5ba3c4901e8c522201444fc1b97
+https://repo.continuum.io/pkgs/free/win-64/chardet-2.3.0-py36_0.tar.bz2#2ed541803ca2cb5cd2514ec5bc91ee6e
+https://repo.continuum.io/pkgs/free/win-64/conda-4.3.14-py36_1.tar.bz2#4ca088bc9f768a057461a2063288759d
+https://repo.continuum.io/pkgs/free/win-64/conda-env-2.6.0-0.tar.bz2#11cd1221fd2b3d7b84d51175b92ccf15
+https://repo.continuum.io/pkgs/free/win-64/cryptography-1.7.1-py36_0.tar.bz2#f679a5a5c072189525aa3ab1225e50aa
+https://repo.continuum.io/pkgs/free/win-64/dill-0.2.5-py36_0.tar.bz2#5f4137f0593cf0a76863ef5088c82de5
+https://repo.continuum.io/pkgs/free/win-64/docutils-0.13.1-py36_0.tar.bz2#0dba4adef0ca9ec3109909f66568ddb0
+https://repo.continuum.io/pkgs/free/win-64/icu-57.1-vc14_0.tar.bz2#0d00881b544aa5822eb91f1ecac17e3d
+https://repo.continuum.io/pkgs/free/win-64/idna-2.2-py36_0.tar.bz2#0570c8c0aee12c1de17312094a03a498
+https://repo.continuum.io/pkgs/free/win-64/joblib-0.9.4-py36_0.tar.bz2#f0e0e6ce1c84446dd38f9a63698043c9
+https://repo.continuum.io/pkgs/free/win-64/jpeg-9b-vc14_0.tar.bz2#f789916eb70543d9fcd0593a9ba29d1b
+https://conda.anaconda.org/conda-forge/win-64/keyring-9.0-py36_0.tar.bz2#439855ad00016a37f8c02660fe230a2c
+https://conda.anaconda.org/conda-forge/win-64/keyrings.alt-1.2-py36_0.tar.bz2#1e58ae2c38b34a8050d7d09ddf574564
+https://repo.continuum.io/pkgs/free/win-64/libpng-1.6.27-vc14_0.tar.bz2#9a7800b906e5e672e030634d4e5507b6
+https://repo.continuum.io/pkgs/free/win-64/mkl-2017.0.1-0.tar.bz2#cb2c7e9db1a26ac45b2edcad205adc49
+https://repo.continuum.io/pkgs/free/win-64/numpy-1.12.1-py36_0.tar.bz2#205e92ff2e1646a40e7a795c2ae2c2bc
+https://repo.continuum.io/pkgs/free/win-64/openssl-1.0.2k-vc14_0.tar.bz2#ff81dd560af25a2ad1323eb35fed5bfa
+https://conda.anaconda.org/conda-forge/win-64/orange3-3.4.1-np112py36_0.tar.bz2#370e917f4391e4fba99864651ecdb0df
+https://repo.continuum.io/pkgs/free/win-64/pip-9.0.1-py36_1.tar.bz2#5ab66bd488e5f57f291942fd02cbdac5
+https://repo.continuum.io/pkgs/free/win-64/pyasn1-0.2.3-py36_0.tar.bz2#fe2c23a170ae22c713e0c3d16b81bdc0
+https://repo.continuum.io/pkgs/free/win-64/pycosat-0.6.2-py36_0.tar.bz2#fb34dcb29966360a37ac34077603b063
+https://repo.continuum.io/pkgs/free/win-64/pycparser-2.17-py36_0.tar.bz2#09383bd56775a775628df24709373720
+https://repo.continuum.io/pkgs/free/win-64/pyopenssl-16.2.0-py36_0.tar.bz2#c217082a1c99893a2499baff314287d5
+https://repo.continuum.io/pkgs/free/win-64/pyqt-5.6.0-py36_2.tar.bz2#b43a698e0e0b3536550cc258598cbb59
+https://conda.anaconda.org/conda-forge/win-64/pyqtgraph-0.10.0-py36_2.tar.bz2#3ef063135619c560de79a4d4f147259d
+https://repo.continuum.io/pkgs/free/win-64/python-3.6.1-0.tar.bz2#7352347b8359998f9ed63dd6a7a96b83
+https://repo.continuum.io/pkgs/free/win-64/pywin32-220-py36_2.tar.bz2#ea9ca2d7faf77590bfc7a91bb3a3e66c
+https://repo.continuum.io/pkgs/free/win-64/qt-5.6.2-vc14_3.tar.bz2#546100cb1c07d6b88f39eae6029e374b
+https://repo.continuum.io/pkgs/free/win-64/requests-2.13.0-py36_0.tar.bz2#72d0fb2653a17484115fc7de9e4ecc14
+https://repo.continuum.io/pkgs/free/win-64/ruamel_yaml-0.11.14-py36_1.tar.bz2#0774a9be0169daafabfdf411816c30d5
+https://repo.continuum.io/pkgs/free/win-64/scikit-learn-0.18.1-np112py36_1.tar.bz2#c1404fa627629eb5200d4628fc73a34b
+https://repo.continuum.io/pkgs/free/win-64/scipy-0.19.0-np112py36_0.tar.bz2#ad03674310fa0238308f127728392693
+https://repo.continuum.io/pkgs/free/win-64/setuptools-27.2.0-py36_1.tar.bz2#db0bfe0a3e4f006c38fd201e1ec1143d
+https://repo.continuum.io/pkgs/free/win-64/sip-4.18-py36_0.tar.bz2#746078f6898babae47654768adad7fd2
+https://repo.continuum.io/pkgs/free/win-64/six-1.10.0-py36_0.tar.bz2#71321b9b3633bced8c5a014f03b12628
+https://repo.continuum.io/pkgs/free/win-64/vs2015_runtime-14.0.25123-0.tar.bz2#7cb8e392179dd01154f77e12e2135838
+https://repo.continuum.io/pkgs/free/win-64/wheel-0.29.0-py36_0.tar.bz2#1ef9becd997934a01951798268408139
+https://repo.continuum.io/pkgs/free/win-64/xlrd-1.0.0-py36_0.tar.bz2#c1bec4e36a432d865f8110eb8ebfef0f
+https://repo.continuum.io/pkgs/free/win-64/zlib-1.2.8-vc14_3.tar.bz2#d18e56750b5d191b0454918b659d1c6c
