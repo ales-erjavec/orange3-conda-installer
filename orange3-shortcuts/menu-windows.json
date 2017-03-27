@@ -4,18 +4,18 @@
         {
             "pywscript": "${PYTHON_SCRIPTS}/orange-canvas-script.py",
             "name": "Orange",
-            "icon": "${PREFIX}/share/orange3-app/icons/orange.ico",
+            "icon": "${PREFIX}/share/orange3/icons/orange.ico"
         },
         {
             "pywscript": "${PYTHON_SCRIPTS}/orange-canvas-script.py",
             "name": "Orange",
-            "icon": "${PREFIX}/share/orange3-app/icons/orange.ico",
+            "icon": "${PREFIX}/share/orange3/icons/orange.ico",
             "desktop": true
         },
         {
             "name": "Orange Env prompt",
             "system": "%COMSPEC%",
-            "scriptargument": ["/K", "${PYTHON_SCRIPTS}\\activate.bat", "${ENV_NAME}"],
+            "scriptarguments": ["/K", "${PYTHON_SCRIPTS}\\activate.bat"]
         }
     ]
 }

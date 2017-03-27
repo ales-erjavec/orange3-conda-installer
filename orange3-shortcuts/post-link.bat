@@ -8,7 +8,7 @@ IF NOT "%ROOT_PREFIX%" == "%PREFIX%" EXIT 0
 
 set INSTALL_KEY=Software\OrangeCanvas
 
-if exist "%PREFIX%"\.noadmin" (
+if exist "%PREFIX%\.noadmin" (
     set HKEY=HKCU
 ) else (
     set HKEY=HKLM

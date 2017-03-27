@@ -14,9 +14,9 @@ cache:
 
 build_script:
   - "%CONDA%\\Scripts\\activate"
-  - set
   - conda info
   - conda install --yes constructor conda-build
+  - conda build orange3-shortcuts
   - constructor .
 
 test_script:
