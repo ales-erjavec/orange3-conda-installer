@@ -14,4 +14,6 @@ conda_default_channels:
 
 install_in_dependency_order: True
 
+icon_image: OrangeInstall.ico
+
 license_file: LICENSE.txt
